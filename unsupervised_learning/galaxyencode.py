@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras.models import Model
 from tensorflow.keras import layers
-from tensorflow.python.keras.layers.convolutional import UpSampling2D
 
 class GalaxyEncoder(Model):
     def __init__(self):

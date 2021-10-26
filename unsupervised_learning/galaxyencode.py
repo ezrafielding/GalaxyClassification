@@ -31,8 +31,3 @@ class GalaxyEncoder(Model):
         encoded = self.encoder(x)
         decoded = self.decoder(encoded)
         return decoded
-
-autoencoder = GalaxyEncoder()
-autoencoder.compile()
-print(autoencoder.encoder.summary())
-print(autoencoder.decoder.summary())

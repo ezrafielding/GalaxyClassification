@@ -1,0 +1,66 @@
+2021-11-08 18:59:51.245913: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+WARNING:root:Loading multiple tfrecords with interleaving, shuffle=True
+2021-11-08 19:01:09.716865: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcuda.so.1
+2021-11-08 19:01:10.174765: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:10.177292: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:00:08.0 name: Tesla V100-PCIE-32GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-11-08 19:01:10.177384: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2021-11-08 19:01:10.627445: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-11-08 19:01:10.627571: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2021-11-08 19:01:10.746515: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcufft.so.10
+2021-11-08 19:01:10.934839: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcurand.so.10
+2021-11-08 19:01:11.023870: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcusolver.so.11
+2021-11-08 19:01:11.282021: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcusparse.so.11
+2021-11-08 19:01:11.289925: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-11-08 19:01:11.290196: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:11.291584: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:11.292826: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
+2021-11-08 19:01:11.293474: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-08 19:01:11.293895: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:11.294756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:00:08.0 name: Tesla V100-PCIE-32GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-11-08 19:01:11.294848: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:11.295637: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:11.296393: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
+2021-11-08 19:01:11.296452: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2021-11-08 19:01:14.546096: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1258] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-08 19:01:14.546192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1264]      0 
+2021-11-08 19:01:14.546215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1277] 0:   N 
+2021-11-08 19:01:14.547032: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:14.547912: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:14.548716: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-11-08 19:01:14.549519: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30995 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-32GB, pci bus id: 0000:00:08.0, compute capability: 7.0)
+WARNING:root:Loading multiple tfrecords with interleaving, shuffle=False
+2021-11-08 19:01:16.164469: I tensorflow/core/profiler/lib/profiler_session.cc:126] Profiler session initializing.
+2021-11-08 19:01:16.164560: I tensorflow/core/profiler/lib/profiler_session.cc:141] Profiler session started.
+2021-11-08 19:01:16.164619: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1611] Profiler found 1 GPUs
+2021-11-08 19:01:16.166062: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcupti.so.11.2'; dlerror: libcupti.so.11.2: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/.singularity.d/libs
+2021-11-08 19:01:16.332540: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcupti.so
+2021-11-08 19:01:16.630464: I tensorflow/core/profiler/lib/profiler_session.cc:159] Profiler session tear down.
+2021-11-08 19:01:16.630633: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1743] CUPTI activity buffer flushed
+2021-11-08 19:01:16.733738: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-11-08 19:01:16.734488: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2693670000 Hz
+2021-11-08 19:01:18.546571: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-11-08 19:01:23.513649: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8201
+2021-11-08 19:01:31.534219: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-11-08 19:01:38.055914: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2021-11-08 19:01:44.353519: I tensorflow/core/profiler/lib/profiler_session.cc:126] Profiler session initializing.
+2021-11-08 19:01:44.353556: I tensorflow/core/profiler/lib/profiler_session.cc:141] Profiler session started.
+2021-11-08 19:01:48.412630: I tensorflow/core/profiler/lib/profiler_session.cc:66] Profiler session collecting data.
+2021-11-08 19:01:48.413170: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1743] CUPTI activity buffer flushed
+2021-11-08 19:01:48.479924: I tensorflow/core/profiler/internal/gpu/cupti_collector.cc:673]  GpuTracer has collected 6543 callback api events and 5719 activity events. 
+2021-11-08 19:01:48.647842: I tensorflow/core/profiler/lib/profiler_session.cc:159] Profiler session tear down.
+2021-11-08 19:01:48.902811: I tensorflow/core/profiler/rpc/client/save_profile.cc:137] Creating directory: /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48
+2021-11-08 19:01:48.982833: I tensorflow/core/profiler/rpc/client/save_profile.cc:143] Dumped gzipped tool data for trace.json.gz to /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48/gpu-005.trace.json.gz
+2021-11-08 19:01:49.050168: I tensorflow/core/profiler/rpc/client/save_profile.cc:137] Creating directory: /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48
+2021-11-08 19:01:49.054302: I tensorflow/core/profiler/rpc/client/save_profile.cc:143] Dumped gzipped tool data for memory_profile.json.gz to /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48/gpu-005.memory_profile.json.gz
+2021-11-08 19:01:49.058709: I tensorflow/core/profiler/rpc/client/capture_profile.cc:251] Creating directory: /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48Dumped tool data for xplane.pb to /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48/gpu-005.xplane.pb
+Dumped tool data for overview_page.pb to /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48/gpu-005.overview_page.pb
+Dumped tool data for input_pipeline.pb to /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48/gpu-005.input_pipeline.pb
+Dumped tool data for tensorflow_stats.pb to /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48/gpu-005.tensorflow_stats.pb
+Dumped tool data for kernel_stats.pb to /idia/projects/hippo/gzd/autoencoder/logs/train/plugins/profile/2021_11_08_19_01_48/gpu-005.kernel_stats.pb
+
+2021-11-09 05:38:51.519822: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.

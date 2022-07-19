@@ -1,4 +1,6 @@
 # The Classification of Optical Galaxy Morphology Using Unsupervised Learning Techniques
+![GitHub](https://img.shields.io/github/license/Virodroid/GalaxyClassification)
+
 Project website: https://sites.google.com/myuwc.ac.za/galaxy-classification
 
 ## Abstract

@@ -1,5 +1,5 @@
 # The Classification of Optical Galaxy Morphology Using Unsupervised Learning Techniques
-![GitHub](https://img.shields.io/github/license/Virodroid/GalaxyClassification)
+![GitHub](https://img.shields.io/github/license/ezrafielding/GalaxyClassification)
 
 Project website: https://sites.google.com/myuwc.ac.za/galaxy-classification
 
@@ -15,7 +15,7 @@ The code, notebooks and logs associated with the supervised learning section of 
 
 The Zoobot library can be found here: https://github.com/mwalmsley/zoobot
 
-The alternate versions of Zoobot used for the architecture comparison can be found here: https://github.com/Virodroid/zoobotAlt
+The alternate versions of Zoobot used for the architecture comparison can be found here: https://github.com/ezrafielding/zoobotAlt
 
 ## Unsupervised Learning
 The code, notebooks and logs associated with the unsupervised learning section of this project can be found in the ```unsupervised_learning``` directory.

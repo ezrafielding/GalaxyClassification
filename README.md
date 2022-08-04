@@ -6,14 +6,16 @@ The advent of large scale, data intensive astronomical surveys has caused the vi
 
 ## Project Publications:
 - E. Fielding, C. N. Nyirenda and M. Vaccari, "A Comparison of Deep Learning Architectures for Optical Galaxy Morphology Classification," 2021 International Conference on Electrical, Computer and Energy Technologies (ICECET), 2021, pp. 1-5, doi: [10.1109/ICECET52533.2021.9698414](https://doi.org/10.1109/ICECET52533.2021.9698414).
+  - Repo: https://github.com/ezrafielding/zoobot-arch-comp
 - E. Fielding, C. N. Nyirenda and M. Vaccari, "The Classification of Optical Galaxy Morphology Using Unsupervised Learning Techniques," 2022 International Conference on Electrical, Computer and Energy Technologies (ICECET), 2022, pp. 1-6, doi: [10.48550/arXiv.2206.06165](https://doi.org/10.48550/arXiv.2206.06165).
+  - Repo: https://github.com/ezrafielding/galaxy-cluster
 
 ## Supervised Learning
 The code, notebooks and logs associated with the supervised learning section of this project can be found in the ```supervised_learning``` directory.
 
 The Zoobot library can be found here: https://github.com/mwalmsley/zoobot
 
-The alternate versions of Zoobot used for the architecture comparison can be found here: https://github.com/ezrafielding/zoobotAlt
+The alternate versions of Zoobot used for the architecture comparison can be found [here](https://github.com/ezrafielding/zoobot-arch-comp).
 
 ## Unsupervised Learning
 The code, notebooks and logs associated with the unsupervised learning section of this project can be found in the ```unsupervised_learning``` directory.
